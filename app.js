@@ -2,6 +2,6 @@ var nom ='';
 
 while(nom!=null)
 {
-  nom = window.prompt(comment tu tappelles ?);
-  window.alert('"nom"' + nom);
+  nom = window.prompt("Comment tu tappelles ?");
+  window.alert("Ton nom est : " + nom);
 }
